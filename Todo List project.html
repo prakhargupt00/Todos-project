@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- important in js we use double quotes for color etc while in css we dont in jquery/js we use camelCase always like while using object inside .css   -->
+<!-- event bubbling : event bubbles(happens) from li to ul to div to body to html  -->
+<html>
+<head>
+	<title>Todo List</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/todos.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<script type="text/javascript" src="assets/js/lib/jquery-min-3.1.1.js"></script>
+
+</head>
+<body>
+
+	<div id="container">
+		<h1>To-Do List <i class="fa fa-plus"></i></h1>
+		<input type="text" name="newTodo" placeholder="Add  New ToDo">
+
+		<ul>
+			<li><span><i class="fa fa-trash"></i></span> Go To Potions Class</li>
+			<li><span><i class="fa fa-trash"></i></span> Buy New Robes</li>
+			<li><span><i class="fa fa-trash"></i></span> Visit Hagrid </li> 
+			<li><span><i class="fa fa-trash"></i></span> Do dishes </li> 
+			<li><span><i class="fa fa-trash"></i></span> Buy new wand </li>  
+		</ul>
+		
+	</div>
+
+	<script type="text/javascript" src="assets/js/todos.js"></script>
+</body>
+</html>
+
